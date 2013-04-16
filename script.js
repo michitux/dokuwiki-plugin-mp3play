@@ -22,7 +22,7 @@ function ap_stopAll(playerID) {
     }
 }
 
-addInitEvent(function() {
+jQuery(function() {
     var objectTags = document.getElementsByTagName("object");
     var players = new Array();
 
